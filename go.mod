@@ -17,5 +17,3 @@ require (
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240930140551-af27646dc61f // indirect
 	google.golang.org/protobuf v1.34.2 // indirect
 )
-
-replace github.com/sunwild/checker => ../checker
