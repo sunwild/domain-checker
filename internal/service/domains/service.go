@@ -1,6 +1,6 @@
 package domains
 
-import domains2 "github.com/sunwild/api/pkg/domains"
+import domains2 "github.com/sunwild/domain-checker_api/pkg/domains"
 
 type Service struct {
 	repo Repo

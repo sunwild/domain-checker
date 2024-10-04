@@ -3,9 +3,9 @@ package restapi
 import (
 	"encoding/json"
 	"github.com/gorilla/mux"
-	"github.com/sunwild/api/internal/grpcapi"
-	service "github.com/sunwild/api/internal/service/domains"
-	"github.com/sunwild/api/pkg/domains"
+	"github.com/sunwild/domain-checker_api/internal/grpcapi"
+	service "github.com/sunwild/domain-checker_api/internal/service/domains"
+	"github.com/sunwild/domain-checker_api/pkg/domains"
 	"log"
 	"net/http"
 	"strconv"

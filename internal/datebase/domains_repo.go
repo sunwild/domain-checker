@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"fmt"
 	"github.com/pkg/errors"
-	"github.com/sunwild/api/pkg/domains"
+	"github.com/sunwild/domain-checker_api/pkg/domains"
 )
 
 func (r *Repository) GetAllDomains() ([]*domains.Domain, error) {

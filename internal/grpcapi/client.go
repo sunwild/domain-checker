@@ -6,7 +6,6 @@ import (
 	"log"
 	"time"
 
-	pb "github.com/sunwild/checker/proto/checker/proto"
 	"google.golang.org/grpc"
 )
 
