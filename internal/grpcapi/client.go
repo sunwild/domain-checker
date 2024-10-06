@@ -3,10 +3,10 @@ package grpcapi
 import (
 	"context"
 	"fmt"
+	pb "github.com/sunwild/domain-checker_checker/proto/checker/proto"
+	"google.golang.org/grpc"
 	"log"
 	"time"
-
-	"google.golang.org/grpc"
 )
 
 func CheckDomainsWithGRPC(domains []string, isManual bool) (*pb.DomainResponse, error) {
